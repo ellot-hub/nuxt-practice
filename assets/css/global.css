@@ -1,0 +1,24 @@
+html body {
+  margin: 0;
+  padding: 0;
+}
+.header-fixed {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+.main-container {
+  display: flex;
+  /*justify-content: center;*/
+  margin: 0;
+  padding: 0;
+  background-color: rgba(200,201,204, .7);
+  min-height: calc(100vh - 44px);
+}
+.el-space__item:last-child {
+  margin-right: 0 !important;
+}
+.el-dropdown-link, .el-dropdown-link:focus-visible {
+  cursor: default;
+  outline: none;
+}
